@@ -1,0 +1,10 @@
+{
+  "is_active": true,
+  "is_break": false,
+  "frozen_mode": true,
+  "strict_whitelist": true,
+  "end_time": "2026-05-17T10:46:57.234489",
+  "seconds_remaining": 5396,
+  "session_id": 3,
+  "reward_break_minutes": 15
+}

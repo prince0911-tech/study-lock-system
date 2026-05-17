@@ -1,0 +1,27 @@
+2026-05-17 15:47:39,994 | WARNING | backend.services.windows_control | Unable to update hosts file. Run as administrator to block sites in all browsers: [Errno 13] Permission denied: 'C:\\Windows\\System32\\drivers\\etc\\hosts'
+2026-05-17 15:48:39,019 | WARNING | backend.services.windows_control | Unable to update hosts file. Run as administrator to block sites in all browsers: [Errno 13] Permission denied: 'C:\\Windows\\System32\\drivers\\etc\\hosts'
+2026-05-17 15:48:59,641 | WARNING | backend.services.windows_control | Unable to register startup entry: [WinError 5] Access is denied
+2026-05-17 16:12:22,193 | WARNING | backend.services.windows_control | Unable to update hosts file. Run as administrator to block sites in all browsers: [Errno 13] Permission denied: 'C:\\Windows\\System32\\drivers\\etc\\hosts'
+2026-05-17 16:12:22,472 | INFO | desktop_app.study_lock_gui | Starting Flask API server...
+2026-05-17 16:12:22,484 | INFO | backend.api.server | Flask application created successfully
+2026-05-17 16:12:22,498 | INFO | backend.api.server | 🚀 API Server starting on 127.0.0.1:8765
+2026-05-17 16:12:22,498 | INFO | backend.api.server | Health check URL: http://127.0.0.1:8765/health
+2026-05-17 16:12:22,499 | INFO | backend.api.server | ✅ API Server ready and accepting connections
+2026-05-17 16:12:22,499 | INFO | desktop_app.study_lock_gui | API Server started successfully!
+2026-05-17 16:12:23,027 | INFO | desktop_app.study_lock_gui | ✅ GUI initialized successfully
+2026-05-17 16:12:23,027 | INFO | desktop_app.study_lock_gui | 🌐 API should be running on http://127.0.0.1:8765
+2026-05-17 16:12:23,027 | INFO | desktop_app.study_lock_gui | 💻 Chrome Extension should connect within 30 seconds
+2026-05-17 16:12:23,027 | INFO | desktop_app.study_lock_gui | ============================================================
+2026-05-17 16:12:33,124 | INFO | werkzeug | 127.0.0.1 - - [17/May/2026 16:12:33] "GET /api/session/status HTTP/1.1" 200 -
+2026-05-17 16:12:34,137 | INFO | werkzeug | 127.0.0.1 - - [17/May/2026 16:12:34] "GET /api/session/status HTTP/1.1" 200 -
+2026-05-17 16:12:35,139 | INFO | werkzeug | 127.0.0.1 - - [17/May/2026 16:12:35] "GET /api/session/status HTTP/1.1" 200 -
+2026-05-17 16:12:36,137 | INFO | werkzeug | 127.0.0.1 - - [17/May/2026 16:12:36] "GET /api/session/status HTTP/1.1" 200 -
+2026-05-17 16:12:37,145 | INFO | werkzeug | 127.0.0.1 - - [17/May/2026 16:12:37] "GET /api/session/status HTTP/1.1" 200 -
+2026-05-17 16:12:38,794 | INFO | werkzeug | 127.0.0.1 - - [17/May/2026 16:12:38] "GET /api/session/status HTTP/1.1" 200 -
+2026-05-17 16:12:39,796 | INFO | werkzeug | 127.0.0.1 - - [17/May/2026 16:12:39] "GET /api/session/status HTTP/1.1" 200 -
+2026-05-17 16:12:40,794 | INFO | werkzeug | 127.0.0.1 - - [17/May/2026 16:12:40] "GET /api/session/status HTTP/1.1" 200 -
+2026-05-17 16:12:41,557 | INFO | desktop_app.study_lock_gui | ============================================================
+2026-05-17 16:12:41,558 | INFO | desktop_app.study_lock_gui | 🛑 Study Lock Application Shutting Down
+2026-05-17 16:12:41,559 | INFO | desktop_app.study_lock_gui | ============================================================
+2026-05-17 16:12:41,560 | INFO | backend.api.server | Shutting down API server...
+2026-05-17 16:12:41,795 | INFO | desktop_app.study_lock_gui | API Server stopped

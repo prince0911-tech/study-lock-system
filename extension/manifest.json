@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Study Lock Filter",
+  "version": "1.0.0",
+  "description": "Blocks distracting tabs and cleans YouTube during focus sessions.",
+  "permissions": ["tabs", "storage", "scripting", "activeTab"],
+  "host_permissions": [
+    "http://127.0.0.1:8765/*",
+    "https://*/*",
+    "http://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*", "https://youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["blocked.html", "blocked.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

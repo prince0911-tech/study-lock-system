@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #110f1f, #090b10);
+  color: #f8fafc;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.panel {
+  width: min(720px, calc(100vw - 40px));
+  background: rgba(17, 24, 39, 0.92);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  border-radius: 24px;
+  padding: 32px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+h1 {
+  margin-top: 0;
+  color: #f87171;
+}

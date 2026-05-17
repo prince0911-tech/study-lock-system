@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blocked by Study Lock</title>
+    <link rel="stylesheet" href="blocked.css">
+  </head>
+  <body>
+    <main class="panel">
+      <h1>Blocked During Focus</h1>
+      <p id="reason"></p>
+      <p id="target"></p>
+    </main>
+    <script>
+      const params = new URLSearchParams(location.search);
+      document.getElementById("reason").textContent = params.get("reason") || "This page is not allowed.";
+      document.getElementById("target").textContent = params.get("target") || "";
+    </script>
+  </body>
+  </html>
